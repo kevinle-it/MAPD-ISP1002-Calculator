@@ -239,7 +239,7 @@
                                         <rect key="frame" x="217.5" y="0.0" width="62.5" height="50"/>
                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="÷"/>
                                         <connections>
                                             <action selector="btnDivide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9da-Gh-0N1"/>
@@ -326,7 +326,7 @@
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="cube"/>
+                                        <state key="normal" title="cbrt"/>
                                         <connections>
                                             <action selector="btnCube:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m0L-DC-nHL"/>
                                         </connections>
@@ -378,7 +378,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="resultLabel" destination="9Cd-L1-eyZ" id="mLs-Ph-fih"/>
+                        <outlet property="resultLabel" destination="9Cd-L1-eyZ" id="noP-lG-tyV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
